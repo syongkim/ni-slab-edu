@@ -36,3 +36,7 @@ https://github.com/syongkim/ni-slab-edu/releases/new?tag=v0.1.0
 Put version DOI and concept DOI into `CITATION.cff`.
 
 Old name `orni-slab-edu` is retired; do not flip Zenodo on that repo.
+
+## If Zenodo shows Failed
+
+Usually the GitHub webhook rejected `.zenodo.json`. This deposit no longer ships that file (same as `cssim-fol`). Delete the failed GitHub Release, keep tag `v0.1.0` (or retag after the push), confirm the Zenodo switch is still **on**, then Publish release again.
