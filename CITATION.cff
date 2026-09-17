@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it and the companion manuscript."
-title: "orni-slab-edu: educational Python for the extended slab near-inertial operator"
+title: "orni-slab-edu: Slab model with two-dimensional full horizontal velocity-gradient tensor"
 version: "0.1.0"
 date-released: "2026-09-18"
 authors:
@@ -16,8 +16,10 @@ keywords:
   - slab model
   - transfer function
   - Green function
+  - velocity-gradient tensor
   - oceanography
 abstract: >-
-  Educational Python implementing the transfer function H (equations 12-16) and
-  Green function G (equations 17-22) of the extended slab mixed-layer operator,
-  and redrawing manuscript Figures 2 and 3.
+  Educational Python for a slab mixed-layer model with a two-dimensional full
+  horizontal velocity-gradient tensor. Implements the transfer function H
+  (equations 12-16) and Green function G (equations 17-22), and redraws
+  manuscript Figures 2 and 3.

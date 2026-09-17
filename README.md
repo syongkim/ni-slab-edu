@@ -1,5 +1,7 @@
 # orni-slab-edu
 
+**Slab model with two-dimensional full horizontal velocity-gradient tensor**
+
 Educational Python for the extended slab mixed-layer operator in:
 
 > Kim, S. Y. An extended slab mixed-layer operator for near-inertial currents with a

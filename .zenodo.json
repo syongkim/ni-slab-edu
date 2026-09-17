@@ -1,6 +1,6 @@
 {
-  "title": "orni-slab-edu: educational Python for the extended slab near-inertial operator",
-  "description": "Educational Python implementing the transfer function H (equations 12-16) and Green function G (equations 17-22) of the extended slab mixed-layer operator of Kim (ORNI manuscript), and redrawing manuscript Figures 2 and 3. Controls check G against scipy.linalg.expm and H against the isotropic slab.",
+  "title": "orni-slab-edu: Slab model with two-dimensional full horizontal velocity-gradient tensor",
+  "description": "Educational Python for a slab mixed-layer model with a two-dimensional full horizontal velocity-gradient tensor. Implements the transfer function H (equations 12-16) and Green function G (equations 17-22) of Kim (ORNI manuscript), and redraws manuscript Figures 2 and 3. Controls check G against scipy.linalg.expm and H against the isotropic slab.",
   "upload_type": "software",
   "access_right": "open",
   "license": "mit",
@@ -17,6 +17,7 @@
     "slab model",
     "transfer function",
     "Green function",
+    "velocity-gradient tensor",
     "oceanography"
   ],
   "related_identifiers": [
