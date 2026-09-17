@@ -1,25 +1,22 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it and the companion manuscript."
-title: "ni-slab-edu: Slab model with two-dimensional full horizontal velocity-gradient tensor"
-version: "0.1.0"
-date-released: "2026-09-18"
+title: "Slab model with two-dimensional full horizontal velocity-gradient tensor"
 authors:
   - family-names: Kim
     given-names: Sung Yong
-    orcid: "https://orcid.org/0000-0001-9320-3802"
     affiliation: "Korea Advanced Institute of Science and Technology"
+version: "0.1.1"
 license: MIT
 repository-code: "https://github.com/syongkim/ni-slab-edu"
+abstract: >-
+  Educational Python for a slab mixed-layer model with a two-dimensional full
+  horizontal velocity-gradient tensor. Implements the transfer function H
+  (equations 12-16) and Green function G (equations 17-22), and redraws
+  manuscript Figures 2 and 3.
 keywords:
   - near-inertial
   - mixed layer
   - slab model
   - transfer function
   - Green function
-  - velocity-gradient tensor
   - oceanography
-abstract: >-
-  Educational Python for a slab mixed-layer model with a two-dimensional full
-  horizontal velocity-gradient tensor. Implements the transfer function H
-  (equations 12-16) and Green function G (equations 17-22), and redraws
-  manuscript Figures 2 and 3.

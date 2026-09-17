@@ -13,4 +13,4 @@ from .transfer import H, Hc
 from .green import G, impulse_response
 
 __all__ = ["TABLE1", "coefficients", "H", "Hc", "G", "impulse_response"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"

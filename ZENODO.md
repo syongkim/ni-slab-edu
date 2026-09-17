@@ -1,42 +1,27 @@
 # GitHub + Zenodo (DOI)
 
-Local path: `/pao1/work/papers/orni/deposit/` (GitHub root of `syongkim/ni-slab-edu`).
-Title / description: **Slab model with two-dimensional full horizontal velocity-gradient tensor**.
+Local: `/pao1/work/papers/orni/deposit/` → GitHub `syongkim/ni-slab-edu`.
+Title: **Slab model with two-dimensional full horizontal velocity-gradient tensor**.
 
-## Correct order
+## Order
 
-1. Create empty **public** repo `ni-slab-edu` (no README/license on GitHub).
-2. Push `main` + tag `v0.1.0` — **no Release yet**.
-3. Zenodo → GitHub → switch **on** for `syongkim/ni-slab-edu`.
-4. **Then** publish GitHub Release from tag `v0.1.0`.
+1. Zenodo switch **ON** for `syongkim/ni-slab-edu`.
+2. GitHub Release Publish from a tag (`v0.1.1`).
 
-Zenodo only harvests Releases published **after** the switch is on.
+## If the Zenodo page shows Failed
 
-## Push
+Do these in order:
 
-```bash
-cd /pao1/work/papers/orni/deposit
-git push -u origin main
-git push origin v0.1.0
-```
+1. **Click the red Failed row** — Zenodo often shows the real error (CITATION / permission / download).
+2. GitHub → Settings → Applications → **Zenodo** → Repository access  
+   → include **`ni-slab-edu`** (rename from `orni-slab-edu` often leaves the old name only).
+3. Zenodo → GitHub → `ni-slab-edu`: switch **OFF**, refresh, switch **ON**.
+4. Delete the failed GitHub Releases (keep tags if you want).
+5. Publish a **new** tag release:  
+   https://github.com/syongkim/ni-slab-edu/releases/new?tag=v0.1.1
 
-## Zenodo switch
+## Manual DOI (if webhook keeps failing)
 
-1. https://zenodo.org — log in with GitHub (`syongkim`).
-2. Top-right GitHub icon → **GitHub**.
-3. Find `syongkim/ni-slab-edu` → switch **on**.
-4. If missing: GitHub → Settings → Applications → **Zenodo** → grant `ni-slab-edu`.
-
-## Release (only after switch is on)
-
-https://github.com/syongkim/ni-slab-edu/releases/new?tag=v0.1.0
-
-## Record DOIs
-
-Put version DOI and concept DOI into `CITATION.cff`.
-
-Old name `orni-slab-edu` is retired; do not flip Zenodo on that repo.
-
-## If Zenodo shows Failed
-
-Usually the GitHub webhook rejected `.zenodo.json`. This deposit no longer ships that file (same as `cssim-fol`). Delete the failed GitHub Release, keep tag `v0.1.0` (or retag after the push), confirm the Zenodo switch is still **on**, then Publish release again.
+1. Download: https://github.com/syongkim/ni-slab-edu/archive/refs/tags/v0.1.1.zip
+2. https://zenodo.org/uploads/new → upload the zip → **Reserve DOI** → Publish.
+3. Put version + concept DOI into `CITATION.cff`.
