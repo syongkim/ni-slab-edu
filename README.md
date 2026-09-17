@@ -1,4 +1,4 @@
-# orni-slab-edu
+# ni-slab-edu
 
 **Slab model with two-dimensional full horizontal velocity-gradient tensor**
 

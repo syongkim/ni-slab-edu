@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it and the companion manuscript."
-title: "orni-slab-edu: Slab model with two-dimensional full horizontal velocity-gradient tensor"
+title: "ni-slab-edu: Slab model with two-dimensional full horizontal velocity-gradient tensor"
 version: "0.1.0"
 date-released: "2026-09-18"
 authors:
@@ -9,7 +9,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-9320-3802"
     affiliation: "Korea Advanced Institute of Science and Technology"
 license: MIT
-repository-code: "https://github.com/syongkim/orni-slab-edu"
+repository-code: "https://github.com/syongkim/ni-slab-edu"
 keywords:
   - near-inertial
   - mixed layer

@@ -1,4 +1,4 @@
-"""orni-slab-edu: slab model with two-dimensional full horizontal velocity-gradient tensor.
+"""ni-slab-edu: slab model with two-dimensional full horizontal velocity-gradient tensor.
 
 Educational Python for the extended slab operator of Kim (ORNI manuscript).
 Implements the transfer function H (equations 12-16) and the Green function G
