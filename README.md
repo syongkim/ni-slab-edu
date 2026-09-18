@@ -60,8 +60,14 @@ g = G(t_f, TABLE1["C2"])                 # equations 19-22
 
 ## Citation
 
-If you use this code, please cite the manuscript and this repository (CITATION.cff).
-A Zenodo DOI is issued from the GitHub release (see `.zenodo.json`).
+If you use this code, please cite the manuscript and this archive.
+
+- Version DOI: https://doi.org/10.5281/zenodo.22821333
+- Concept DOI: https://doi.org/10.5281/zenodo.22821332
+- GitHub: https://github.com/syongkim/ni-slab-edu
+
+See `CITATION.cff`. The Zenodo deposit was uploaded manually (the GitHub↔Zenodo
+webhook listed Failed and does not show manual uploads).
 
 ## License
 

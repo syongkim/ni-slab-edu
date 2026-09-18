@@ -8,6 +8,14 @@ authors:
 version: "0.1.1"
 license: MIT
 repository-code: "https://github.com/syongkim/ni-slab-edu"
+doi: 10.5281/zenodo.22821333
+identifiers:
+  - description: "This version (v0.1.1 / Zenodo upload)"
+    type: doi
+    value: 10.5281/zenodo.22821333
+  - description: "All versions (concept DOI)"
+    type: doi
+    value: 10.5281/zenodo.22821332
 abstract: >-
   Educational Python for a slab mixed-layer model with a two-dimensional full
   horizontal velocity-gradient tensor. Implements the transfer function H
